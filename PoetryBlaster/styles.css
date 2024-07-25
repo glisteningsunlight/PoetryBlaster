@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    flex-direction: column;
+}
+
+canvas {
+    background-color: #111;
+    display: block;
+}
+
+#uploadButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#wordFileInput {
+    margin-bottom: 10px;
+}
+
+#gameOverScreen, #pausedScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#gameOverText {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#pausedText {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
